@@ -65,16 +65,16 @@ export function HomeSection({ onNavigate }: HomeSectionProps) {
 
           {/* Hero Tagline */}
           <p className="mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-            A <span className="font-semibold text-foreground">recent graduate</span> and ambitious entrepreneur who believes everyone has a purpose. Founder of <span className="font-semibold text-accent">YES TECH</span> and proud member of{" "}
+            A <span className="font-semibold text-foreground">recent graduate</span> and ambitious entrepreneur who believes everyone has a purpose. I worked with{" "}
             <a
-              href="https://techno-speak.jnb1a.cloudlet.cloud"
+              href="https://techno-speak.jnb1a.cloudlet.cloud/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-blue-500 underline-offset-4 transition-colors hover:text-blue-400 hover:underline"
             >
               Technospeak
-            </a>
-            . Ready to make an impact.
+            </a>{" "}
+            — a technology solutions company focused on making tech simple, friendly, and stress-free. Founder of <span className="font-semibold text-accent">YES TECH FIN</span>. Ready to make an impact.
           </p>
 
           {/* CTA Buttons */}
@@ -126,11 +126,11 @@ export function HomeSection({ onNavigate }: HomeSectionProps) {
             <div className="rounded-2xl bg-background p-5 text-center shadow-sm transition-all hover:shadow-md md:p-6">
               <p className="font-serif text-3xl font-bold text-primary md:text-4xl">2025</p>
               <p className="mt-1 text-sm font-medium text-foreground">Founder</p>
-              <p className="text-xs text-muted-foreground">YES TECH</p>
+              <p className="text-xs text-muted-foreground">YES TECH FIN</p>
             </div>
           </div>
 
-          <div className="mb-8 mt-12 flex items-center justify-center gap-2">
+          <div id="values-passions" className="mb-8 mt-12 flex items-center justify-center gap-2">
             <Sparkles className="h-5 w-5 text-accent" />
             <h3 className="text-center font-serif text-xl font-semibold text-foreground md:text-2xl">
               Values & Passions

@@ -5,22 +5,22 @@ export function ExperienceSection() {
     {
       icon: Rocket,
       title: "Founder",
-      company: "YES TECH",
+      company: "YES TECH FIN",
       companyClass: "text-accent font-semibold",
       period: "2025 - Present",
       description:
-        "Founded YES TECH while completing my studies at Velisa Academy. As an ambitious entrepreneur, I am building technology solutions that make a difference. This venture represents my commitment to innovation and my belief that technology can empower communities.",
+        "Founded YES TECH FIN while completing my studies at Velisa Academy. As an ambitious entrepreneur, I am building technology solutions that make a difference. This venture represents my commitment to innovation and my belief that technology can empower communities.",
       highlights: ["Tech Solutions", "Entrepreneurship", "Innovation"],
     },
     {
       icon: Users,
-      title: "Member",
+      title: "Worked at",
       company: "Technospeak",
       companyClass: "text-accent font-semibold",
       period: "November 2025 - 2026",
       description:
-        "Active member of Technospeak, a community of technology enthusiasts and professionals. Collaborating with like-minded individuals, sharing knowledge, and contributing to the growth of the tech ecosystem in South Africa.",
-      highlights: ["Community", "Networking", "Knowledge Sharing"],
+        "I worked at a technology solutions company built to make tech simple, friendly, and stress-free. I helped individuals and small businesses with system support, task assistance, and training—sharing clear, step-by-step guidance so people can feel confident with their devices and digital tools.",
+      highlights: ["System Support", "Task Assistance", "Training"],
     },
     {
       icon: GraduationCap,
@@ -92,7 +92,16 @@ export function ExperienceSection() {
                     </div>
                     <div className={index % 2 === 0 ? "md:text-right" : ""}>
                       <h3 className="font-semibold text-foreground">{exp.title}</h3>
-                      <p className={`text-sm ${exp.companyClass || "text-accent"}`}>{exp.company}</p>
+                      {exp.company === "Technospeak" ? (
+                        <a
+                          href="https://techno-speak.jnb1a.cloudlet.cloud/"
+                          className="text-sm font-semibold text-blue-500 underline-offset-4 hover:text-blue-400 hover:underline"
+                        >
+                          {exp.company}
+                        </a>
+                      ) : (
+                        <p className={`text-sm ${exp.companyClass || "text-accent"}`}>{exp.company}</p>
+                      )}
                     </div>
                   </div>
 

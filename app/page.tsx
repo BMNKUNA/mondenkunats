@@ -13,11 +13,11 @@ import { WhatsAppButton } from "@/components/whatsapp-button"
 export default function Portfolio() {
   const [activeTab, setActiveTab] = useState("home")
 
-  const scrollToPublicSpeaking = () => {
+  const jumpToValuesPassions = () => {
     const tryScroll = (attempt = 0) => {
-      const section = document.getElementById("public-speaking")
+      const section = document.getElementById("values-passions")
       if (section) {
-        section.scrollIntoView({ behavior: "smooth", block: "start" })
+        section.scrollIntoView({ behavior: "auto", block: "start" })
         return
       }
 
@@ -30,9 +30,9 @@ export default function Portfolio() {
   }
 
   const handleTabChange = (tab: string) => {
-    if (tab === "public-speaking") {
-      setActiveTab("gallery")
-      scrollToPublicSpeaking()
+    if (tab === "values") {
+      setActiveTab("home")
+      jumpToValuesPassions()
       return
     }
 

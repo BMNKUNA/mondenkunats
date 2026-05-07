@@ -6,6 +6,21 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react"
 
 const galleryImages = [
   {
+    src: "/images/mensconfrence 2018.jpg",
+    alt: "Monde Nkuna speaking and networking at Men's Conference 2018 South Africa",
+    caption: "Men's Conference 2018 - South Africa",
+  },
+  {
+    src: "/images/mensconfrence 2018 2.jpg",
+    alt: "Monde Nkuna with attendees at Men's Conference 2018 South Africa",
+    caption: "Public Speaking and Men Mentorship",
+  },
+  {
+    src: "/images/mensconfrence 2018 3.jpg",
+    alt: "Monde Nkuna and participants during Men's Conference 2018 South Africa",
+    caption: "Encouraging Men to Rise with Purpose",
+  },
+  {
     src: "/images/profile-photo.jpg",
     alt: "Professional portrait - Monde Nkuna",
     caption: "Professional Portrait",
@@ -77,8 +92,44 @@ export function GallerySection() {
         </h2>
 
         <p className="mb-10 text-center text-muted-foreground">
-          A glimpse into my world of fashion and style. From classic Sunday gatherings to street style moments across Johannesburg.
+          A glimpse into my journey through style, leadership, and purpose. Alongside fashion moments across Johannesburg, this gallery highlights my work in public speaking where I encourage men to grow, lead well, and pursue purpose.
         </p>
+
+        {/* Public Speaking Spotlight */}
+        <div id="public-speaking" className="mb-10 rounded-2xl border border-primary/20 bg-primary/5 p-6 md:p-8">
+          <div className="mb-4 flex flex-wrap items-center justify-center gap-3 text-center">
+            <span className="rounded-full bg-primary px-3 py-1 text-xs font-semibold uppercase tracking-wide text-primary-foreground">
+              Public Speaking
+            </span>
+            <h3 className="font-serif text-xl font-semibold text-foreground md:text-2xl">
+              Speaker - {"Men's"} Conference 2018, South Africa
+            </h3>
+          </div>
+          <p className="mx-auto mb-6 max-w-3xl text-center text-muted-foreground">
+            I use my voice to inspire men to lead with discipline, purpose, and excellence. These featured moments capture my time as a speaker at {"Men's"} Conference 2018 in South Africa.
+          </p>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+            {galleryImages.slice(0, 3).map((image, index) => (
+              <button
+                key={`featured-${index}`}
+                onClick={() => openLightbox(index)}
+                className="group relative aspect-[4/3] overflow-hidden rounded-xl bg-muted"
+              >
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 640px) 100vw, 33vw"
+                />
+                <div className="absolute inset-0 bg-black/10 transition-colors group-hover:bg-black/30" />
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-3">
+                  <p className="text-xs font-medium text-white md:text-sm">{image.caption}</p>
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
 
         {/* Gallery Grid */}
         <div className="grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-4">
@@ -105,13 +156,13 @@ export function GallerySection() {
           ))}
         </div>
 
-        {/* Fashion Note */}
+        {/* Purpose Note */}
         <div className="mt-12 rounded-2xl bg-primary/5 p-6 text-center md:p-8">
           <h3 className="mb-2 font-serif text-xl font-semibold text-foreground">
-            Style is Self-Expression
+            Speaking to Build Better Men
           </h3>
           <p className="text-muted-foreground">
-            Fashion is more than clothing - {"it's"} a form of art and self-expression. I believe in dressing with intention and presenting yourself with confidence. These moments capture my journey through {"Johannesburg's"} vibrant fashion scene.
+            I was honored to speak at the {"Men's"} Conference 2018 in South Africa, sharing messages that motivate men to take responsibility, pursue excellence, and uplift their communities. For me, style and public speaking both reflect one mission: lead with confidence, character, and purpose.
           </p>
         </div>
       </div>

@@ -13,7 +13,29 @@ import { WhatsAppButton } from "@/components/whatsapp-button"
 export default function Portfolio() {
   const [activeTab, setActiveTab] = useState("home")
 
+  const scrollToPublicSpeaking = () => {
+    const tryScroll = (attempt = 0) => {
+      const section = document.getElementById("public-speaking")
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth", block: "start" })
+        return
+      }
+
+      if (attempt < 8) {
+        window.setTimeout(() => tryScroll(attempt + 1), 80)
+      }
+    }
+
+    tryScroll()
+  }
+
   const handleTabChange = (tab: string) => {
+    if (tab === "public-speaking") {
+      setActiveTab("gallery")
+      scrollToPublicSpeaking()
+      return
+    }
+
     setActiveTab(tab)
     window.scrollTo({ top: 0, behavior: "auto" })
   }

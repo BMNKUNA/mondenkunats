@@ -13,6 +13,7 @@ const tabs = [
   { id: "experience", label: "Experience" },
   { id: "skills", label: "Skills" },
   { id: "gallery", label: "Gallery" },
+  { id: "public-speaking", label: "Public Speaking" },
 ]
 
 export function Navigation({ activeTab, onTabChange }: NavigationProps) {

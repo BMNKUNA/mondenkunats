@@ -65,7 +65,16 @@ export function HomeSection({ onNavigate }: HomeSectionProps) {
 
           {/* Hero Tagline */}
           <p className="mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-            A <span className="font-semibold text-foreground">recent graduate</span> and ambitious entrepreneur who believes everyone has a purpose. Founder of <span className="font-semibold text-accent">YES TECH</span> and proud member of <span className="font-semibold text-accent">Technospeak</span>. Ready to make an impact.
+            A <span className="font-semibold text-foreground">recent graduate</span> and ambitious entrepreneur who believes everyone has a purpose. Founder of <span className="font-semibold text-accent">YES TECH</span> and proud member of{" "}
+            <a
+              href="https://techno-speak.jnb1a.cloudlet.cloud"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-blue-500 underline-offset-4 transition-colors hover:text-blue-400 hover:underline"
+            >
+              Technospeak
+            </a>
+            . Ready to make an impact.
           </p>
 
           {/* CTA Buttons */}
@@ -118,6 +127,35 @@ export function HomeSection({ onNavigate }: HomeSectionProps) {
               <p className="font-serif text-3xl font-bold text-primary md:text-4xl">2025</p>
               <p className="mt-1 text-sm font-medium text-foreground">Founder</p>
               <p className="text-xs text-muted-foreground">YES TECH</p>
+            </div>
+          </div>
+
+          <div className="mb-8 mt-12 flex items-center justify-center gap-2">
+            <Sparkles className="h-5 w-5 text-accent" />
+            <h3 className="text-center font-serif text-xl font-semibold text-foreground md:text-2xl">
+              Values & Passions
+            </h3>
+          </div>
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6">
+            <div className="rounded-2xl bg-background p-5 text-center shadow-sm transition-all hover:shadow-md md:p-6">
+              <p className="font-serif text-3xl font-bold text-primary md:text-4xl">Faith</p>
+              <p className="mt-1 text-sm font-medium text-foreground">Purpose Driven</p>
+              <p className="text-xs text-muted-foreground">Living with intention</p>
+            </div>
+            <div className="rounded-2xl bg-background p-5 text-center shadow-sm transition-all hover:shadow-md md:p-6">
+              <p className="font-serif text-3xl font-bold text-primary md:text-4xl">Men</p>
+              <p className="mt-1 text-sm font-medium text-foreground">Mentorship</p>
+              <p className="text-xs text-muted-foreground">Building stronger communities</p>
+            </div>
+            <div className="rounded-2xl bg-background p-5 text-center shadow-sm transition-all hover:shadow-md md:p-6">
+              <p className="font-serif text-3xl font-bold text-primary md:text-4xl">Tech</p>
+              <p className="mt-1 text-sm font-medium text-foreground">Innovation</p>
+              <p className="text-xs text-muted-foreground">Creating useful solutions</p>
+            </div>
+            <div className="rounded-2xl bg-background p-5 text-center shadow-sm transition-all hover:shadow-md md:p-6">
+              <p className="font-serif text-3xl font-bold text-primary md:text-4xl">Style</p>
+              <p className="mt-1 text-sm font-medium text-foreground">Confidence</p>
+              <p className="text-xs text-muted-foreground">Expressing identity with class</p>
             </div>
           </div>
         </div>

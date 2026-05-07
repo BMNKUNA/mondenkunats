@@ -74,7 +74,7 @@ export function HomeSection({ onNavigate }: HomeSectionProps) {
             >
               Technospeak
             </a>{" "}
-            — a technology solutions company focused on making tech simple, friendly, and stress-free. Founder of <span className="font-semibold text-accent">YES TECH FIN</span>. Ready to make an impact.
+            — a technology solutions company focused on making tech simple, friendly, and stress-free. I founded <span className="font-semibold text-accent">YES TECH FIN</span> while I was doing my NQF5 System Support at Velisa Academy. Ready to make an impact.
           </p>
 
           {/* CTA Buttons */}

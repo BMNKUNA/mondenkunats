@@ -9,7 +9,7 @@ export function ExperienceSection() {
       companyClass: "text-accent font-semibold",
       period: "2025 - Present",
       description:
-        "Founded YES TECH FIN while completing my studies at Velisa Academy. As an ambitious entrepreneur, I am building technology solutions that make a difference. This venture represents my commitment to innovation and my belief that technology can empower communities.",
+        "I founded YES TECH FIN while I was doing my NQF5 System Support at Velisa Academy. As an ambitious entrepreneur, I am building technology solutions that make a difference. This venture represents my commitment to innovation and my belief that technology can empower communities.",
       highlights: ["Tech Solutions", "Entrepreneurship", "Innovation"],
     },
     {

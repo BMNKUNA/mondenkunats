@@ -92,7 +92,7 @@ export function AboutSection() {
               <h3 className="font-semibold text-foreground">Entrepreneurship</h3>
             </div>
             <p className="text-sm text-muted-foreground">
-              Founded <span className="font-semibold text-accent">YES TECH FIN</span> in 2025 while studying. Ambitious entrepreneur with a passion for learning and innovation.
+              I founded <span className="font-semibold text-accent">YES TECH FIN</span> while I was doing my NQF5 System Support at Velisa Academy. Ambitious entrepreneur with a passion for learning and innovation.
             </p>
           </div>
         </div>

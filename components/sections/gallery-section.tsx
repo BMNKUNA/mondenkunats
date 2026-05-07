@@ -23,37 +23,37 @@ const galleryImages = [
   {
     src: "/images/profile-photo.jpg",
     alt: "Professional portrait - Monde Nkuna",
-    caption: "Professional Portrait",
+    caption: "Profile Session - Professional branding portrait in Johannesburg",
   },
   {
     src: "/images/bton-classic-sundays.jpg",
     alt: "Monde Nkuna at Braamfontein Classic Sundays",
-    caption: "Classic Sundays - Braamfontein",
+    caption: "Classic Sundays Event - Networking and style moments in Braamfontein",
   },
   {
     src: "/images/rosebank-starbux-2018.jpg",
     alt: "Fashion event at Rosebank",
-    caption: "Fashion Walk - Rosebank 2018",
+    caption: "Rosebank Fashion Event 2018 - Showcasing personal style at Starbucks area",
   },
   {
     src: "/images/maboneng-2020.jpg",
     alt: "Street style in Maboneng",
-    caption: "Street Style - Maboneng 2020",
+    caption: "Maboneng Street Style Event 2020 - Creative meetup and fashion expression",
   },
   {
     src: "/images/rosebank-jan-smusts.jpg",
     alt: "Fashion gathering at Jan Smuts",
-    caption: "Fashion Event - Jan Smuts Avenue",
+    caption: "Jan Smuts Fashion Gathering - Connecting with creatives in Rosebank",
   },
   {
     src: "/images/maboneng-2018.jpg",
     alt: "Casual style in Maboneng",
-    caption: "Urban Style - Maboneng 2018",
+    caption: "Maboneng Urban Event 2018 - Building new connections through style",
   },
   {
     src: "/images/rosebank-starbux-2.jpg",
     alt: "Fashion enthusiasts gathering",
-    caption: "Fashion Community Event",
+    caption: "Rosebank Style Gathering - Fashion enthusiasts connecting over culture and class",
   },
 ]
 
@@ -92,7 +92,7 @@ export function GallerySection() {
         </h2>
 
         <p className="mb-10 text-center text-muted-foreground">
-          A glimpse into my journey through style, leadership, and purpose. Alongside fashion moments across Johannesburg, this gallery highlights my work in public speaking where I encourage men to grow, lead well, and pursue purpose.
+          A glimpse into my journey through style, leadership, and purpose. The Men's Conference moments are highlighted separately, while the rest of this gallery captures different events across Johannesburg and what each moment represented.
         </p>
 
         {/* Public Speaking Spotlight */}
@@ -133,10 +133,10 @@ export function GallerySection() {
 
         {/* Gallery Grid */}
         <div className="grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-4">
-          {galleryImages.map((image, index) => (
+          {galleryImages.slice(3).map((image, index) => (
             <button
               key={index}
-              onClick={() => openLightbox(index)}
+              onClick={() => openLightbox(index + 3)}
               className="group relative aspect-square overflow-hidden rounded-xl bg-muted"
             >
               <Image
@@ -162,7 +162,7 @@ export function GallerySection() {
             Speaking to Build Better Men
           </h3>
           <p className="text-muted-foreground">
-            I was honored to speak at the {"Men's"} Conference 2018 in South Africa, sharing messages that motivate men to take responsibility, pursue excellence, and uplift their communities. For me, style and public speaking both reflect one mission: lead with confidence, character, and purpose.
+            I was honored to speak at the {"Men's"} Conference 2018 in South Africa, sharing messages that motivate men to take responsibility, pursue excellence, and uplift their communities. For me, style and public speaking both reflect one mission: lead with confidence, character, and purpose. A man of many talents.
           </p>
         </div>
       </div>

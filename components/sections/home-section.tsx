@@ -74,7 +74,7 @@ export function HomeSection({ onNavigate }: HomeSectionProps) {
             >
               Technospeak
             </a>{" "}
-            — a technology solutions company focused on making tech simple, friendly, and stress-free. I founded <span className="font-semibold text-accent">YES TECH FIN</span> while I was doing my NQF5 System Support at Velisa Academy. Ready to make an impact.
+            — a technology solutions company focused on making tech simple, friendly, and stress-free. I founded <span className="font-semibold text-accent">YES TECH FIN</span> while I was doing my NQF5 System Support at Velisa Africa Academy. Ready to make an impact.
           </p>
 
           {/* CTA Buttons */}
@@ -111,7 +111,7 @@ export function HomeSection({ onNavigate }: HomeSectionProps) {
             <div className="rounded-2xl bg-background p-5 text-center shadow-sm transition-all hover:shadow-md md:p-6">
               <p className="font-serif text-3xl font-bold text-primary md:text-4xl">2025</p>
               <p className="mt-1 text-sm font-medium text-foreground">Graduate</p>
-              <p className="text-xs text-muted-foreground">Velisa Academy</p>
+              <p className="text-xs text-muted-foreground">Velisa Africa Academy</p>
             </div>
             <div className="rounded-2xl bg-background p-5 text-center shadow-sm transition-all hover:shadow-md md:p-6">
               <p className="font-serif text-3xl font-bold text-primary md:text-4xl">NQF5</p>

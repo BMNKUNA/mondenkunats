@@ -4,7 +4,7 @@ export function SkillsSection() {
   const skillCategories = [
     {
       icon: Monitor,
-      title: "System Support",
+      title: "Systems Support",
       description: "IT infrastructure management, troubleshooting, and technical support",
       skills: [
         "Hardware Troubleshooting",

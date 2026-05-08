@@ -29,7 +29,7 @@ export function HomeSection({ onNavigate }: HomeSectionProps) {
           {/* Graduate Badge */}
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-accent/10 px-4 py-2 text-sm font-medium text-accent">
             <GraduationCap className="h-4 w-4" />
-            <span>2025 Tech Graduate | System Support NQF5</span>
+            <span>2025 Tech Graduate | Systems Support NQF5</span>
           </div>
 
           {/* Profile Image */}
@@ -52,7 +52,7 @@ export function HomeSection({ onNavigate }: HomeSectionProps) {
           {/* Title with animated underline */}
           <div className="mb-6">
             <p className="text-xl font-medium text-accent md:text-2xl">
-              System Support Graduate | Data Engineer | Web Developer
+              Systems Support Graduate | Data Engineer | Web Developer
             </p>
             <div className="mx-auto mt-2 h-1 w-24 rounded-full bg-gradient-to-r from-primary via-accent to-primary md:w-32" />
           </div>
@@ -74,7 +74,7 @@ export function HomeSection({ onNavigate }: HomeSectionProps) {
             >
               Technospeak
             </a>{" "}
-            — a technology solutions company focused on making tech simple, friendly, and stress-free. I founded <span className="font-semibold text-accent">YES TECH FIN</span> while I was doing my NQF5 System Support at Velisa Africa Academy. Ready to make an impact.
+            — a technology solutions company focused on making tech simple, friendly, and stress-free. I founded <span className="font-semibold text-accent">YES TECH FIN</span> while I was doing my NQF5 Systems Support at Velisa Africa Academy. Ready to make an impact.
           </p>
 
           {/* CTA Buttons */}
@@ -115,7 +115,7 @@ export function HomeSection({ onNavigate }: HomeSectionProps) {
             </div>
             <div className="rounded-2xl bg-background p-5 text-center shadow-sm transition-all hover:shadow-md md:p-6">
               <p className="font-serif text-3xl font-bold text-primary md:text-4xl">NQF5</p>
-              <p className="mt-1 text-sm font-medium text-foreground">System Support</p>
+              <p className="mt-1 text-sm font-medium text-foreground">Systems Support</p>
               <p className="text-xs text-muted-foreground">Certified</p>
             </div>
             <div className="rounded-2xl bg-background p-5 text-center shadow-sm transition-all hover:shadow-md md:p-6">

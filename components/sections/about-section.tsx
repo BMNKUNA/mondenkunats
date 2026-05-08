@@ -23,7 +23,7 @@ export function AboutSection() {
         <div className="mb-8 flex items-center justify-center gap-3 rounded-xl bg-primary/10 p-4">
           <Award className="h-6 w-6 text-primary" />
           <p className="font-medium text-foreground">
-            Proud 2025 Graduate in System Support from Velisa Africa Academy
+            Proud 2025 Graduate in Systems Support from Velisa Africa Academy
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export function AboutSection() {
             {"I'm"} <span className="font-semibold text-foreground">Monde Nkuna</span>, a recent graduate, passionate technologist, and ambitious entrepreneur based in Johannesburg. I grew up between the coastal city of Durban and the scenic towns of Barberton and Malelane in Mpumalanga, experiences that shaped my adaptable and resilient character.
           </p>
           <p>
-            As a <span className="font-semibold text-foreground">fresh graduate with an NQF5 in System Support</span> from Velisa Africa Academy (2025) and an NQF5 in Data Engineering from Explore Data Science Academy (2023), I bring a unique combination of technical expertise and eagerness to learn. My academic journey has equipped me with the skills to handle complex technical challenges, and my entrepreneurial spirit drives me to continuously push boundaries.
+            As a <span className="font-semibold text-foreground">fresh graduate with an NQF5 in Systems Support</span> from Velisa Africa Academy (2025) and an NQF5 in Data Engineering from Explore Data Science Academy (2023), I bring a unique combination of technical expertise and eagerness to learn. My academic journey has equipped me with the skills to handle complex technical challenges, and my entrepreneurial spirit drives me to continuously push boundaries.
           </p>
           <p>
             I believe that everyone has a unique purpose in this life, and {"I'm"} committed to helping others discover and achieve theirs. {"I'm"} known for being friendly, approachable, and genuinely invested in seeing the people around me succeed.
@@ -56,7 +56,7 @@ export function AboutSection() {
               <h3 className="font-semibold text-foreground">Education</h3>
             </div>
             <p className="text-sm text-muted-foreground">
-              <span className="font-medium text-foreground">2025 Graduate</span> - NQF5 System Support (Velisa Africa Academy) and NQF5 Data Engineering (Explore Data Science Academy, 2023).
+              <span className="font-medium text-foreground">2025 Graduate</span> - NQF5 Systems Support (Velisa Africa Academy) and NQF5 Data Engineering (Explore Data Science Academy, 2023).
             </p>
           </div>
 
@@ -92,7 +92,7 @@ export function AboutSection() {
               <h3 className="font-semibold text-foreground">Entrepreneurship</h3>
             </div>
             <p className="text-sm text-muted-foreground">
-              I founded <span className="font-semibold text-accent">YES TECH FIN</span> while I was doing my NQF5 System Support at Velisa Africa Academy. Ambitious entrepreneur with a passion for learning and innovation.
+              I founded <span className="font-semibold text-accent">YES TECH FIN</span> while I was doing my NQF5 Systems Support at Velisa Africa Academy. Ambitious entrepreneur with a passion for learning and innovation.
             </p>
           </div>
         </div>

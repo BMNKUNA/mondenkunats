@@ -5,22 +5,22 @@ const outputPath = "public/monde-nkuna-resume.pdf"
 
 const profile = {
   name: "Monde Nkuna",
-  title: "System Support Graduate | Data Engineer | Web Developer",
+  title: "Systems Support Graduate | Data Engineer | Web Developer",
   location: "Johannesburg, South Africa",
   email: "admin@technospeak.co.za",
   website: "https://techno-speak.jnb1a.cloudlet.cloud/",
   summary:
-    "Motivated System Support Graduate with NQF5 certification from Velisa Africa Academy (2025) and NQF5 Data Engineering from Explore Data Science Academy (2023). I am building my early career in IT support and digital solutions, with hands-on experience from founding YES TECH FIN while studying and supporting clients through Technospeak.",
+    "Motivated Systems Support Graduate with NQF5 certification from Velisa Africa Academy (2025) and NQF5 Data Engineering from Explore Data Science Academy (2023). I am building my early career in IT support and digital solutions, with hands-on experience from founding YES TECH FIN while studying and supporting clients through Technospeak.",
   experience: [
     {
       role: "Founder",
       company: "YES TECH FIN",
       period: "2025 - Present",
       details:
-        "Founded YES TECH FIN while doing my NQF5 System Support at Velisa Africa Academy. Built practical experience in client support, problem solving, and delivering simple technology solutions.",
+        "Founded YES TECH FIN while doing my NQF5 Systems Support at Velisa Africa Academy. Built practical experience in client support, problem solving, and delivering simple technology solutions.",
     },
     {
-      role: "System Support & Digital Assistance",
+      role: "Systems Support & Digital Assistance",
       company: "Technospeak",
       period: "2025 - 2026",
       details:
@@ -28,11 +28,11 @@ const profile = {
     },
   ],
   education: [
-    "NQF5 System Support, Velisa Africa Academy (2025)",
+    "NQF5 Systems Support, Velisa Africa Academy (2025)",
     "NQF5 Data Engineering, Explore Data Science Academy (2023)",
   ],
   skills: [
-    "System Support & Troubleshooting",
+    "Systems Support & Troubleshooting",
     "Network Administration Basics",
     "Data Engineering Foundations",
     "Web Development",

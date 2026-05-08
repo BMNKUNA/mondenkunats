@@ -14,13 +14,13 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Monde Nkuna | System Support Graduate Portfolio',
-  description: 'System Support Graduate, Data Engineer, Web Developer, and entrepreneur based in Johannesburg. Founder of YES TECH FIN.',
-  keywords: ['Monde Nkuna', 'System Support Graduate', 'System Support', 'Data Engineer', 'Web Developer', 'YES TECH FIN', 'Johannesburg', 'Technospeak'],
+  title: 'Monde Nkuna | Systems Support Graduate Portfolio',
+  description: 'Systems Support Graduate, Data Engineer, Web Developer, and entrepreneur based in Johannesburg. Founder of YES TECH FIN.',
+  keywords: ['Monde Nkuna', 'Systems Support Graduate', 'Systems Support', 'Data Engineer', 'Web Developer', 'YES TECH FIN', 'Johannesburg', 'Technospeak'],
   authors: [{ name: 'Monde Nkuna' }],
   openGraph: {
-    title: 'Monde Nkuna | System Support Graduate Portfolio',
-    description: 'System Support Graduate, Data Engineer, Web Developer, and entrepreneur based in Johannesburg.',
+    title: 'Monde Nkuna | Systems Support Graduate Portfolio',
+    description: 'Systems Support Graduate, Data Engineer, Web Developer, and entrepreneur based in Johannesburg.',
     type: 'website',
   },
 }
